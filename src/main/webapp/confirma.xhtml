@@ -17,15 +17,10 @@
 
     <ui:define name="content">
         <h:form>
-            <div>Usuário: #{loginBean.login} #{loginBean.senha}</div>
-            <div class="titulo-form">INSCRIÇÃO CONFIRMADA</div>
-            Prezado(a) #{inscricaoBean.candidato.nome},
-            Seguem os dados da sua inscrição
-            Idioma escolhido: #{inscricaoBean.candidato.idioma.descricao}
-            CPF: #{inscricaoBean.candidato.cpf}
-            Data e hora: #{inscricaoBean.candidato.dataHora}
-            <h:commandButton value="Voltar" action="inscricao"/>
-            <h:messages/>
+            <h:panelGroup>
+                <h:outputText value="#{usuario.nome}"/> logado!
+            </h:panelGroup>
+            
         </h:form>
     </ui:define>
 

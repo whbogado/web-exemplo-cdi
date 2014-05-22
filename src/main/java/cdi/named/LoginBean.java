@@ -10,10 +10,6 @@ import java.io.Serializable;
 import javax.enterprise.context.SessionScoped;
 import javax.inject.Named;
 
-/**
- *
- * @author Wilson
- */
 @Named
 @SessionScoped
 public class LoginBean implements Serializable{
@@ -40,6 +36,6 @@ public class LoginBean implements Serializable{
     }
     
     public String loginAction() {
-        return null;
+        return "confirma";
     }
 }
