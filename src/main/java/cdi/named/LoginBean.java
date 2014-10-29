@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package cdi.named;
 
 import java.io.Serializable;
@@ -12,7 +6,7 @@ import javax.inject.Named;
 
 @Named
 @SessionScoped
-public class LoginBean implements Serializable{
+public class LoginBean implements Serializable {
     private String login;
     private String senha;
 
